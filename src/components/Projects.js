@@ -3,7 +3,7 @@ import { ProjectCard } from './ProjectCard'
 import projImg1 from '../assets/img/StudyNotion.png'
 import projImg2 from '../assets/img/Ecomzy.png'
 import projImg3 from '../assets/img/Weather_App.png'
-import projImg4 from '../assets/img/Password_Generator.png'
+import projImg4 from '../assets/img/project-img-4.png'
 import colorSharp2 from '../assets/img/color-sharp2.png'
 import 'animate.css'
 import TrackVisibility from 'react-on-screen'
@@ -35,12 +35,12 @@ export const Projects = () => {
       link2: 'https://github.com/DivyamVJ0901/Weather-App'
     },
     {
-      title: 'Password Generator',
+      title: 'Dev Detective',
       description:
-        'It enable users to create passwords tailored to their security needs.',
-      imgUrl: projImg4,
-      link1: 'https://passwordgeneratorbydivyamvijay.netlify.app/',
-      link2: 'https://github.com/DivyamVJ0901/Password_Generator'
+      'Uncover comprehensive details about any developer using their GitHub username, including company name, location, Twitter handle, repos etc.',
+      imgUrl : projImg4,
+      link1: 'https://dev-detective-by-divyam.netlify.app/',
+      link2: 'https://github.com/DivyamVJ0901/Dev-Detective-Project'
     }
   ]
 
